@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 NetflixGPT using React, GPT API , Google Firebase, TailWindCSS
 Step 1: Getting Started with Create React App
 npx create-react-app netflix-gpt
+=======
+# NetflixGPT using React, GPT API , Google Firebase, TailWindCSS
+## Step 1: Getting Started with Create React App
+  npx create-react-app netflix-gpt
+  
+  In the project directory, you can run: npm start
+>>>>>>> 4a38b0ba3050328a42ede35d43640b2c68edc9ba
 
 In the project directory, you can run: npm start
 
