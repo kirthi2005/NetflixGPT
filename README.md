@@ -1,28 +1,35 @@
-<<<<<<< HEAD
-NetflixGPT using React, GPT API , Google Firebase, TailWindCSS
-Step 1: Getting Started with Create React App
-npx create-react-app netflix-gpt
-=======
 # NetflixGPT using React, GPT API , Google Firebase, TailWindCSS
 ## Step 1: Getting Started with Create React App
   npx create-react-app netflix-gpt
-  
-  In the project directory, you can run: npm start
->>>>>>> 4a38b0ba3050328a42ede35d43640b2c68edc9ba
+  In the project directory, you can run: npm start or npm run start
+  Runs the app in the development mode.
+  Open http://localhost:3000 to view it in your browser.
 
-In the project directory, you can run: npm start
+## Step 2: Install tailwind for create react app
+   https://tailwindcss.com/docs/guides/create-react-app
 
-This project was bootstrapped with Create React App.
+## Step 3: Install React Router DOM
+    npm i -D react-router-dom
 
-Available Scripts
-In the project directory, you can run:
+   rafce - React Arrow Function Export Component
 
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+## Features
+    - Home page
+    -Login/Signup
+      - Sign in/ sign up form
+      - redirect to browse page
+    - Browse after authentication
+      - Header
+      - Main movie
+        -trailer in background
+        -title & description
+        -Movie suggestions
+          - Movie lists * N
+    - Netflix GPT
+      - Search bar
+      -Movie Suggestions
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+
 
 npm test
 Launches the test runner in the interactive watch mode.
