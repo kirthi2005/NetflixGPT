@@ -11,7 +11,22 @@
 ## Step 3: Install React Router DOM
     npm i -D react-router-dom
 
+## Step 4: Built Sign In/ Sign Up form using single form
+
+## Step 5: Form Validation & useRef Hook usage
+    Regex email validation: https://saturncloud.io/blog/how-can-i-validate-an-email-address-using-a-regular-expression/
+
+    Here’s the regular expression we’ll be using:
+      /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/.test(email)
+
+    Regex Password validation: https://regexr.com/3bfsi
+      /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/.test(password)
+
+
+
    rafce - React Arrow Function Export Component
+
+
 
 ## Features
     - Home page
