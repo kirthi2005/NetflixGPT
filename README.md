@@ -21,6 +21,25 @@
 
     Regex Password validation: https://regexr.com/3bfsi
       /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/.test(password)
+## Step 6: Fire base
+    https://console.firebase.google.com/u/0/project/my-netflixgpt-bd4ff/overview
+    firebase.google.com => create project (Register app)
+    create utils -> firebase.js (Add Firebase SDK)
+    Install firebase CLI
+    Deploy to Firebase Hosting
+        firebase login          
+              Firebase CLI v13.17.0 is incompatible with Node.js v16.15.0 Please upgrade Node.js to version >=18.0.0 || >=20.0.0 
+                step1: install latest long term support version of node from nodejs.org
+                step2: Run command: npm install -g npm@latest
+              check for version: node --version
+                v20.17.0
+        firebase init
+          build folder, .firebaserc and firebase.json files are created,
+        firebase deploy 
+          Project Console: https://console.firebase.google.com/project/my-netflixgpt-bd4ff/overview
+          Hosting URL: https://my-netflixgpt-bd4ff.web.app
+
+
 
 
 
