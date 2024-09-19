@@ -1,4 +1,8 @@
 # NetflixGPT using React, GPT API , Google Firebase, TailWindCSS
+
+## Firebase Hosting URL
+    https://my-netflixgpt-bd4ff.web.app/
+
 ## Step 1: Getting Started with Create React App
   npx create-react-app netflix-gpt
   In the project directory, you can run: npm start or npm run start
@@ -38,10 +42,15 @@
         firebase deploy 
           Project Console: https://console.firebase.google.com/project/my-netflixgpt-bd4ff/overview
           Hosting URL: https://my-netflixgpt-bd4ff.web.app
-## Step 7: Creating user & Authenticating in Firebase using signIn/signUp form in our app
+## Step 7: Create signup user account and implemented sign in user API
+## Creating USer & Authenticating in Firebase using signIn/signUp form in our app
         firebase documentation for password authentication
         https://firebase.google.com/docs/auth/web/password-auth?hl=en
-
+## Step 8: Add user to Redux store 
+        install redux tool kit: 
+            npm i -D @reduxjs/toolkit
+            npm i react-redux
+        create redux store appStore.js, userSlice.js in utils folder
 
 
 
