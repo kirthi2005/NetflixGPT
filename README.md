@@ -46,11 +46,12 @@
 ## Creating USer & Authenticating in Firebase using signIn/signUp form in our app
         firebase documentation for password authentication
         https://firebase.google.com/docs/auth/web/password-auth?hl=en
-## Step 8: Add user to Redux store 
+## Step 8: Created Redux store 
         install redux tool kit: 
             npm i -D @reduxjs/toolkit
             npm i react-redux
         create redux store appStore.js, userSlice.js in utils folder
+## Step 9: Built signin/signout using firebase authentication API
 
 
 
